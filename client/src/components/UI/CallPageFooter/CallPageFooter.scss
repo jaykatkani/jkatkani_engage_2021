@@ -1,0 +1,127 @@
+.footer-item {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+    height: 80px;
+    background: #1f1f1f;
+    z-index: 1;
+    border-top: 0.5px solid rgb(70, 65, 65);
+    .left-item {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 33%;
+
+      .footer-items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 72px;
+        flex: 1;
+        border-right: 1px solid rgb(70, 65, 65);
+        border-left: 1px solid rgb(70, 65, 65);
+        position: relative;
+        max-width: 186px;
+
+        .title {
+          color: aliceblue;
+          margin-right: 7%;
+          font-weight: 500;
+        }
+
+        .icon {
+          color: #fff;
+          font-size: 20px;
+          margin-top: 3px;
+        }
+        .icon-pos{
+          margin-left: 10px;
+          margin-top: 3px;
+        }
+        &:hover {
+          cursor: pointer;
+          color: #4f59ca;
+          box-shadow: 0 0 10px #4f59ca;
+        }
+        
+      }
+    }
+    .center-item {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      .icon-block {
+        background: #fff;
+        border: 1px solid rgb(223, 223, 223);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 7px;
+        .icon {
+          color: #555;
+          font-size: 20px;
+          &.red {
+            color: #d93025;
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          color: #4f59ca;
+          box-shadow: 0 0 10px #4f59ca;
+        }
+        &.red-bg{
+          background: #d93025;
+          .icon{
+            color: #fff;
+          }
+        }
+      }
+    }
+    .right-item {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      height: 100%;
+      width: 33%;
+      .footer-items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 72px;
+        flex: 1;
+        border-right: 1px solid rgb(70, 65, 65);
+        border-left: 1px solid rgb(70, 65, 65);
+        position: relative;
+        max-width: 186px;
+
+        .title {
+          color: aliceblue;
+          margin-left: 11px;
+          font-weight: 500;
+        }
+
+        .icon {
+          color: #fff;
+          font-size: 20px;
+          &.red {
+            color: #d93025;
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          color: #4f59ca;
+          box-shadow: 0 0 10px #4f59ca;
+        }
+        
+      }
+    }
+  }

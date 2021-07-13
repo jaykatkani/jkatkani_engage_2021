@@ -1,0 +1,14 @@
+.vidcontainer{
+    width: 100%;
+    min-width: 451px;
+.edges{
+    width: 72%;
+    border-radius: 33px;
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    height: unset;
+    margin-top: 20px;
+    margin-left: 47px;
+}
+}

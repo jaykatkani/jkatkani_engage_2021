@@ -1,0 +1,99 @@
+.meeting-info-block {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background: #252424;
+    border-radius: 10px;
+    padding: 10px;
+    width: 268px;
+    .meeting-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #fff;
+      h3 {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .icon {
+        cursor: pointer;
+        font-size: 20px;
+      }
+    }
+    .add-people-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      color: #555;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+      margin-top: 20px;
+      .icon {
+        font-size: 12px;
+        margin-right: 10px;
+      }
+    }
+    .info-text {
+      color: #fff;
+      font-size: 14px;
+      display: flex;
+      .share{
+        margin-right: 10px;
+        display: flex;
+        .icon{
+          margin-left: 10px;
+          height: 22px;
+          width: 18px;
+        }
+      }
+      .icon-pos{
+        margin-top: -5px;
+        margin-left: 10px;
+      }
+    }
+    .meet-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #f1f3f5;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 5%;
+      &:hover {
+        cursor: pointer;
+        background: grey;
+      }
+      span {
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        outline: none;
+        background: none;
+        flex: 1;
+        color: #555;
+      }
+      .icon {
+        cursor: pointer;
+        color: #555;
+      }
+    }
+    .permission-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .icon {
+        color: #555;
+        font-size: 20px;
+        margin-right: 10px;
+      }
+    }
+    .small-text {
+      font-size: 13px;
+      color: #fff;
+    }
+  }
