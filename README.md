@@ -38,16 +38,17 @@ it is written in client part.
 # Features of App :-
 1. Toggle audio/video
 2. Chat feature
-3. Screen Sharing with/withput audio
+3. Screen Sharing with audio
 4. switch between meet and chats
-5. secure and safe authentication
-6. pause/play uservideo/screenshare
+5. create multiple-room
+6. pause/play partner-video/shared-screen
 7. focus on me
 8. Message Alerts
 9. screenshots
 10. mobile responsive
 11. send emojis to enhance chat experience
 12. directly share meeting code via mail
+13. secure and safe authentication
 
 The future vision of my prototype has some more feature which i could not implement due to the give time constraint,
 i will hopefully update my demo and github repository with a month with the updated features :)
