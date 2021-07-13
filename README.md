@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I've buit a Peer-2-Peer Video Calling Website using Nodejs, react, WebRTC, Redis-server(to store database).
+I've buit a teams-clone Website using Nodejs, react, WebRTC, Redis-server(to store database).
 This is my submission for Microsoft Engage 2021.
 i have built my prototype using agile methodology.
 
