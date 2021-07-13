@@ -1,6 +1,12 @@
+# Teams-Clone_Engage
 
+## Introduction
 
-# TO RUN LOCALLY
+I've buit a Peer-2-Peer Video Calling Website using Nodejs, react, WebRTC, Redis-server(to store database).
+This is my submission for Microsoft Engage 2021.
+i have built my prototype using agile methodology.
+
+## TO RUN LOCALLY
 Write these set of command in your VS code terminal
 
 node server.js (To start backend server)
@@ -8,10 +14,10 @@ node server.js (To start backend server)
 cd client
 npm start
 
+## Live demo
 You can check the live demo here - https://jk-teams-1603.netlify.app/
 
-i have used Nodejs, react, WebRTC, Redis-server(to store database) in my code.
-
+## prerequisite
 some basic modules you should know before getting started
 
 1. CORS - to make cross origin requests
